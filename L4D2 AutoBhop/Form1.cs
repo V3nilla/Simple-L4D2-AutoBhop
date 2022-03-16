@@ -9,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Memory;
 using System.Threading;
 using System.Runtime.InteropServices;
+using Memory;
 
 namespace L4D2_AutoBhop
 {
