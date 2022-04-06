@@ -50,12 +50,12 @@ namespace L4D2_AutoBhop
                         if (ground == 0) // If we are on the ground (0)
                         {
                             m.WriteMemory(Jump, "int", "5"); // Force Jump if ground value changed to 5
-                            Thread.Sleep(10);
+                            Thread.Sleep(100);
                             m.WriteMemory(Jump, "int", "4"); // Changing value to 4, so we can force jump again in the next time
                         }
                     }
                 }
-                Thread.Sleep(1);
+                Thread.Sleep(10);
             }
         }
     }
