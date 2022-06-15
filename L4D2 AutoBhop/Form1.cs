@@ -17,7 +17,7 @@ namespace L4D2_AutoBhop
 {
     public partial class Form1 : Form
     {
-        [DllImport("user32.dll")]  // Importing Key States from user32.dll
+        [DllImport("user32.dll")]
         static extern short GetAsyncKeyState(System.Windows.Forms.Keys vKey);
 
         public static string Jump = "client.dll+0x757DF0"; // Updated Offsets(April 6, 2022)
