@@ -38,6 +38,12 @@ namespace L4D2_AutoBhop
                 BH.Start();
             }
         }
+        
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(0);
+        }
+        
         private void BHOP()
         {
             while (true)
